@@ -6,8 +6,7 @@ gem 'rails', '4.1.0.beta1'
 
 gem 'sprockets-rails', github: 'rails/sprockets-rails', branch: 'master'
 
-# Use postgresql as the database for Active Record
-gem 'pg'
+gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
