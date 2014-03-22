@@ -1,0 +1,8 @@
+<%= javascript_include_tag 'i-dont-exist.js' %>
+
+Rails.application.config.assets.raise_runtime_errors: <%= Rails.application.config.assets.raise_runtime_errors %>
+<br>
+Sprockets::Rails::Helper.raise_runtime_errors: <%= Sprockets::Rails::Helper.raise_runtime_errors %>
+<br>
+
+<p>The `javascript_include_tag` in this page should raise an exception</p>
